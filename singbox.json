@@ -3,7 +3,7 @@
     "disabled": false,
     "level": "info",
     "output": "sing-box.log",
-    "timestamp": true
+    "timestamp": false
   },
   "experimental": {
     "clash_api": {
