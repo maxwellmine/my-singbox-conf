@@ -1,13 +1,9 @@
 {
   "log": {
     "disabled": false,
-    "level": "info",
+    "level": "debug",
     "output": "sing-box.log",
-    "timestamp": true,
-    "rotation": {
-    "max_size": "100MB",
-    "max_age": "7d",
-    "max_backups": 3
+    "timestamp": true
   },
   "experimental": {
     "clash_api": {
@@ -17,15 +13,17 @@
       "external_ui_download_detour": "全球直连",
       "secret": "110",
       "default_mode": "rule",
-      "access_control_allow_origin":["http://127.0.0.1:20123"],
+      "access_control_allow_origin": [
+        "*"
+      ],
       "access_control_allow_private_network": false
     },
     "cache_file": {
       "enabled": true,
       "path": "cache.db",
       "cache_id": "",
-      "store_fakeip": true,
-      "rdns_timeout": "7d"
+      "store_fakeip": false,
+      "rdrc_timeout": "7d"
     }
   },
   "inbounds": [
