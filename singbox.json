@@ -178,12 +178,6 @@
         "protocol": "quic"
       },
       {
-        "action": "reject",
-        "rule_set": [
-          "Category-Ads"
-        ]
-      },
-      {
         "action": "route",
         "clash_mode": "direct",
         "outbound": "全球直连"
@@ -307,13 +301,6 @@
         "tag": "Telegram_IP",
         "type": "remote",
         "url": "https://raw.githubusercontent.com/lyc8503/sing-box-rules/refs/heads/rule-set-geoip/geoip-telegram.srs",
-        "format": "binary",
-        "download_detour": "节点选择"
-      },
-      {
-        "tag": "Category-Ads",
-        "type": "remote",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs",
         "format": "binary",
         "download_detour": "节点选择"
       },
