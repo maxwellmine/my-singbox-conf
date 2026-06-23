@@ -83,6 +83,12 @@
       ]
     },
     {
+      "type": "selector",
+      "tag": "全部节点",
+      "interrupt_exist_connections": true,
+      "outbounds": []
+    },    
+    {
       "type": "urltest",
       "tag": "🇭🇰 香港",
       "interrupt_exist_connections": true,
